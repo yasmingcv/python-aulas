@@ -1,0 +1,4 @@
+nome = 'Yasmin'
+
+print(len(nome))
+print(nome[0])
