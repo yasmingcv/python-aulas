@@ -3,10 +3,10 @@ def somaListas(a,b):
 
     i = 0
 
-    while i < len(a):
+    for i in range(len(a)):
         total.append(a[i] + b[i])
-        i += 1
+        
     
     return total
 
-print(somaListas([1,2,3], [3,2,1]))
+print(somaListas([2,2,3], [3,2,1]))
