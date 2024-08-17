@@ -1,0 +1,16 @@
+from operacoes import *
+
+operac = input('Escolha a operação | [+] [-] [*] [/] |\n')
+qtd = int(input('Digite a quantidade de números: '))
+numeros = []
+
+for i in range(qtd):
+    num = int(input(f'Digite o numero {i + 1}: '))
+    numeros.append(num)
+
+print({
+    '+': soma(*numeros),
+    '-': subtracao(*numeros),
+    '*': multiplicacao(*numeros),
+    '/': divisao(*numeros) 
+}[operac])
