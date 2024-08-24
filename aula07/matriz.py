@@ -11,6 +11,6 @@ matriz = [
 ]
 
 for array in matriz:
-    for i in array:
+    for i in array: 
         print(i, end=' ')
     print()
